@@ -289,8 +289,6 @@ export const draw = function(text, id) {
   })
     .setGraph({
       rankdir: dir,
-      align: 'UL',
-      ranker: 'network-simplex',
       nodesep: nodeSpacing,
       ranksep: rankSpacing,
       marginx: 8,
