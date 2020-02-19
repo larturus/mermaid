@@ -3967,7 +3967,8 @@ var draw = function draw(text, id) {
     compound: true
   }).setGraph({
     rankdir: dir,
-    ranker: 'tight-tree',
+    align: 'UL',
+    ranker: 'network-simplex',
     nodesep: nodeSpacing,
     ranksep: rankSpacing,
     marginx: 8,
