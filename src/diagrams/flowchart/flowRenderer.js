@@ -289,7 +289,7 @@ export const draw = function(text, id) {
   })
     .setGraph({
       rankdir: dir,
-      ranker: tight-tree,
+      ranker: 'tight-tree',
       nodesep: nodeSpacing,
       ranksep: rankSpacing,
       marginx: 8,
